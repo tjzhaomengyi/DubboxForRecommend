@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.011" errors="1" skipped="0" tests="1" name="com.yingjun.dubbox.ProviderTest">
+  <properties>
+    <property name="idea.version" value="15.0.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\root\Desktop\DubboxDemo-master\Provider"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\root\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\software\apache-maven-3.2.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Java\jdk1.7.0_79\bin;C:\Python27;C:\Python27\Scripts;C:\scala\bin;D:\hadoop-2.5.2\bin;D:\hadoop-2.5.2\sbin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\Git\cmd;E:\software\apache-maven-3.2.5\bin;C:\Program Files\TortoiseGit\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\maven\mvnRespo"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="E:\software\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.2 -s E:\software\apache-maven-3.2.5\conf\settings.xml -Dmaven.repo.local=D:\maven\mvnRespo package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\software\apache-maven-3.2.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.011" classname="com.yingjun.dubbox.ProviderTest" name="test">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:276)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:278)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:1232)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:156)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:130)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:126)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:93)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.&lt;init&gt;(ZkclientZookeeperClient.java:26)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperTransporter.connect(ZkclientZookeeperTransporter.java:10)
+	at com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter$Adpative.connect(ZookeeperTransporter$Adpative.java)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.&lt;init&gt;(ZookeeperRegistry.java:69)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory.createRegistry(ZookeeperRegistryFactory.java:37)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:94)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adpative.getRegistry(RegistryFactory$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.getRegistry(RegistryProtocol.java:190)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:109)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:489)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:285)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:246)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:110)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:380)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:334)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:850)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 31 more
+</error>
+    <system-out>2017-06-06 23:45:40,223 INFO[org.springframework.test.context.support.AbstractTestContextBootstrapper:259]- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-06 23:45:40,241 INFO[org.springframework.test.context.support.AbstractTestContextBootstrapper:207]- Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-06-06 23:45:40,243 INFO[org.springframework.test.context.support.AbstractTestContextBootstrapper:185]- Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55433fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3212de12, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74b1896c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33b54d4e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43e65667]
+2017-06-06 23:45:40,330 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317]- Loading XML bean definitions from class path resource [application.xml]
+2017-06-06 23:45:40,510 INFO[?:?]- using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2017-06-06 23:45:40,545 INFO[org.springframework.context.support.AbstractApplicationContext:573]- Refreshing org.springframework.context.support.GenericApplicationContext@72d97267: startup date [Tue Jun 06 23:45:40 CST 2017]; root of context hierarchy
+2017-06-06 23:45:40,899 INFO[com.alibaba.dubbo.config.spring.ServiceBean:108]-  [DUBBO] The service ready on spring started. service: com.yingjun.dubbox.api.UserService, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,000 INFO[com.alibaba.dubbo.config.ServiceConfig:518]-  [DUBBO] Export dubbo service com.yingjun.dubbox.api.UserService to local registry, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,001 INFO[com.alibaba.dubbo.config.ServiceConfig:474]-  [DUBBO] Export dubbo service com.yingjun.dubbox.api.UserService to url dubbo://192.168.80.1:20990/com.yingjun.dubbox.api.UserService?anyhost=true&amp;application=provider&amp;default.accepts=1000&amp;default.threadpool=fixed&amp;default.threads=100&amp;default.timeout=5000&amp;default.token=true&amp;dubbo=2.8.4&amp;generic=false&amp;interface=com.yingjun.dubbox.api.UserService&amp;methods=getUserByPhone,getUserByName&amp;owner=yingjun&amp;pid=1664&amp;revision=1.0.0&amp;serialization=kryo&amp;side=provider&amp;timestamp=1496763940919, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,001 INFO[com.alibaba.dubbo.config.ServiceConfig:485]-  [DUBBO] Register dubbo service com.yingjun.dubbox.api.UserService url dubbo://192.168.80.1:20990/com.yingjun.dubbox.api.UserService?anyhost=true&amp;application=provider&amp;default.accepts=1000&amp;default.threadpool=fixed&amp;default.threads=100&amp;default.timeout=5000&amp;default.token=true&amp;dubbo=2.8.4&amp;generic=false&amp;interface=com.yingjun.dubbox.api.UserService&amp;methods=getUserByPhone,getUserByName&amp;owner=yingjun&amp;pid=1664&amp;revision=1.0.0&amp;serialization=kryo&amp;side=provider&amp;timestamp=1496763940919 to registry registry://192.168.80.21:2181/com.alibaba.dubbo.registry.RegistryService?application=provider&amp;backup=192.168.80.22:2181&amp;dubbo=2.8.4&amp;owner=yingjun&amp;pid=1664&amp;registry=zookeeper&amp;timestamp=1496763940905, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,131 INFO[com.alibaba.dubbo.remoting.transport.AbstractServer:70]-  [DUBBO] Start NettyServer bind /0.0.0.0:20990, export /192.168.80.1:20990, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,144 INFO[com.alibaba.dubbo.registry.support.AbstractRegistry:232]-  [DUBBO] Load registry store file C:\Users\root\.dubbo\dubbo-registry-192.168.80.21.cache, data: {com.huawei.diviner.rest.RcmdService=empty://192.168.80.1:9888/services/com.huawei.diviner.rest.RcmdService?accepts=500&amp;anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;dubbo=2.8.4&amp;extension=com.alibaba.dubbo.demo.extension.TraceInterceptor,                     com.alibaba.dubbo.demo.extension.TraceFilter,                     com.alibaba.dubbo.demo.extension.ClientTraceFilter,                     com.alibaba.dubbo.demo.extension.DynamicTraceBinding,                     com.alibaba.dubbo.demo.extension.CustomExceptionMapper,                     com.alibaba.dubbo.rpc.protocol.rest.support.LoggingFilter&amp;generic=false&amp;interface=com.huawei.diviner.rest.RcmdService&amp;methods=recommendByUserID,recommendByDefault&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;server=tomcat&amp;side=provider&amp;threads=500&amp;timestamp=1496563108763&amp;validation=true, annotationConfig/com.alibaba.dubbo.demo.user.facade.UserRestService=empty://192.168.80.1:20880/com.alibaba.dubbo.demo.user.facade.UserRestService?anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;dubbo=2.8.4&amp;generic=false&amp;group=annotationConfig&amp;interface=com.alibaba.dubbo.demo.user.facade.UserRestService&amp;methods=getUser,registerUser&amp;optimizer=com.alibaba.dubbo.demo.SerializationOptimizerImpl&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;revision=2.8.4&amp;serialization=kryo&amp;side=provider&amp;timestamp=1496563108417&amp;validation=true, com.alibaba.dubbo.demo.user.facade.UserRestService=empty://192.168.80.1:9888/services/com.alibaba.dubbo.demo.user.facade.UserRestService?accepts=500&amp;anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;dubbo=2.8.4&amp;extension=com.alibaba.dubbo.demo.extension.TraceInterceptor,                     com.alibaba.dubbo.demo.extension.TraceFilter,                     com.alibaba.dubbo.demo.extension.ClientTraceFilter,                     com.alibaba.dubbo.demo.extension.DynamicTraceBinding,                     com.alibaba.dubbo.demo.extension.CustomExceptionMapper,                     com.alibaba.dubbo.rpc.protocol.rest.support.LoggingFilter&amp;generic=false&amp;interface=com.alibaba.dubbo.demo.user.facade.UserRestService&amp;methods=getUser,registerUser&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;revision=2.8.4&amp;server=tomcat&amp;side=provider&amp;threads=500&amp;timestamp=1496563108685&amp;validation=true, com.alibaba.dubbo.demo.user.facade.AnotherUserRestService=empty://192.168.80.1:9888/services/com.alibaba.dubbo.demo.user.facade.AnotherUserRestService?accepts=500&amp;anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;connections=100&amp;dubbo=2.8.4&amp;extension=com.alibaba.dubbo.demo.extension.TraceInterceptor,                     com.alibaba.dubbo.demo.extension.TraceFilter,                     com.alibaba.dubbo.demo.extension.ClientTraceFilter,                     com.alibaba.dubbo.demo.extension.DynamicTraceBinding,                     com.alibaba.dubbo.demo.extension.CustomExceptionMapper,                     com.alibaba.dubbo.rpc.protocol.rest.support.LoggingFilter&amp;generic=false&amp;interface=com.alibaba.dubbo.demo.user.facade.AnotherUserRestService&amp;methods=getUser,registerUser&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;revision=2.8.4&amp;server=tomcat&amp;side=provider&amp;threads=500&amp;timeout=2000&amp;timestamp=1496563108716&amp;validation=true, com.alibaba.dubbo.demo.bid.BidService=empty://192.168.80.1:20880/com.alibaba.dubbo.demo.bid.BidService?anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;dubbo=2.8.4&amp;generic=false&amp;interface=com.alibaba.dubbo.demo.bid.BidService&amp;methods=throwNPE,bid&amp;optimizer=com.alibaba.dubbo.demo.SerializationOptimizerImpl&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;revision=2.8.4&amp;serialization=kryo&amp;side=provider&amp;timestamp=1496563108594, xmlConfig/com.alibaba.dubbo.demo.user.UserService=empty://192.168.80.1:20880/com.alibaba.dubbo.demo.user.UserService?anyhost=true&amp;application=demo-provider&amp;category=configurators&amp;check=false&amp;dubbo=2.8.4&amp;generic=false&amp;group=xmlConfig&amp;interface=com.alibaba.dubbo.demo.user.UserService&amp;methods=getUser,registerUser&amp;optimizer=com.alibaba.dubbo.demo.SerializationOptimizerImpl&amp;organization=dubbox&amp;owner=programmer&amp;pid=9928&amp;revision=2.8.4&amp;serialization=kryo&amp;side=provider&amp;timestamp=1496563108643}, dubbo version: 2.8.4, current host: 127.0.0.1
+2017-06-06 23:45:41,156 INFO[org.I0Itec.zkclient.ZkEventThread:64]- Starting ZkClient event thread.
+2017-06-06 23:45:41,167 INFO[org.apache.zookeeper.Environment:100]- Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2017-06-06 23:45:41,167 INFO[org.apache.zookeeper.Environment:100]- Client environment:host.name=root
+2017-06-06 23:45:41,167 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.version=1.7.0_79
+2017-06-06 23:45:41,168 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.vendor=Oracle Corporation
+2017-06-06 23:45:41,168 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.home=C:\Java\jdk1.7.0_79\jre
+2017-06-06 23:45:41,169 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.class.path=C:\Users\root\Desktop\DubboxDemo-master\Provider\target\test-classes;C:\Users\root\Desktop\DubboxDemo-master\Provider\target\classes;D:\maven\mvnRespo\com\yingjun\dubbox\Api\1.0.0\Api-1.0.0.jar;D:\maven\mvnRespo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\mvnRespo\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;D:\maven\mvnRespo\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;D:\maven\mvnRespo\com\alibaba\fastjson\1.1.41\fastjson-1.1.41.jar;D:\maven\mvnRespo\junit\junit\4.11\junit-4.11.jar;D:\maven\mvnRespo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\mvnRespo\com\alibaba\dubbo\2.8.4\dubbo-2.8.4.jar;D:\maven\mvnRespo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven\mvnRespo\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven\mvnRespo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven\mvnRespo\com\101tec\zkclient\0.8\zkclient-0.8.jar;D:\maven\mvnRespo\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\maven\mvnRespo\org\jboss\resteasy\resteasy-jaxrs\3.0.7.Final\resteasy-jaxrs-3.0.7.Final.jar;D:\maven\mvnRespo\org\jboss\resteasy\jaxrs-api\3.0.7.Final\jaxrs-api-3.0.7.Final.jar;D:\maven\mvnRespo\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.1.Final\jboss-annotations-api_1.1_spec-1.0.1.Final.jar;D:\maven\mvnRespo\javax\activation\activation\1.1\activation-1.1.jar;D:\maven\mvnRespo\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;D:\maven\mvnRespo\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;D:\maven\mvnRespo\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\maven\mvnRespo\commons-io\commons-io\2.1\commons-io-2.1.jar;D:\maven\mvnRespo\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;D:\maven\mvnRespo\org\jboss\resteasy\resteasy-client\3.0.7.Final\resteasy-client-3.0.7.Final.jar;D:\maven\mvnRespo\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;D:\maven\mvnRespo\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;D:\maven\mvnRespo\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;D:\maven\mvnRespo\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven\mvnRespo\de\javakaffee\kryo-serializers\0.26\kryo-serializers-0.26.jar;D:\maven\mvnRespo\org\jboss\resteasy\resteasy-jackson-provider\3.0.7.Final\resteasy-jackson-provider-3.0.7.Final.jar;D:\maven\mvnRespo\org\codehaus\jackson\jackson-core-asl\1.9.12\jackson-core-asl-1.9.12.jar;D:\maven\mvnRespo\org\codehaus\jackson\jackson-mapper-asl\1.9.12\jackson-mapper-asl-1.9.12.jar;D:\maven\mvnRespo\org\codehaus\jackson\jackson-jaxrs\1.9.12\jackson-jaxrs-1.9.12.jar;D:\maven\mvnRespo\org\codehaus\jackson\jackson-xc\1.9.12\jackson-xc-1.9.12.jar;D:\maven\mvnRespo\org\jboss\resteasy\resteasy-netty\3.0.7.Final\resteasy-netty-3.0.7.Final.jar;D:\maven\mvnRespo\org\apache\tomcat\embed\tomcat-embed-core\8.0.11\tomcat-embed-core-8.0.11.jar;D:\maven\mvnRespo\org\apache\tomcat\embed\tomcat-embed-logging-juli\8.0.11\tomcat-embed-logging-juli-8.0.11.jar;D:\maven\mvnRespo\org\springframework\spring-core\4.2.0.RELEASE\spring-core-4.2.0.RELEASE.jar;D:\maven\mvnRespo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\mvnRespo\org\springframework\spring-beans\4.2.0.RELEASE\spring-beans-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-context\4.2.0.RELEASE\spring-context-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-context-support\4.2.0.RELEASE\spring-context-support-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-aop\4.2.0.RELEASE\spring-aop-4.2.0.RELEASE.jar;D:\maven\mvnRespo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven\mvnRespo\org\springframework\spring-aspects\4.2.0.RELEASE\spring-aspects-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\aspectj\aspectjweaver\1.8.6\aspectjweaver-1.8.6.jar;D:\maven\mvnRespo\org\springframework\spring-expression\4.2.0.RELEASE\spring-expression-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-tx\4.2.0.RELEASE\spring-tx-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-test\4.2.0.RELEASE\spring-test-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-jms\4.2.0.RELEASE\spring-jms-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\springframework\spring-messaging\4.2.0.RELEASE\spring-messaging-4.2.0.RELEASE.jar;D:\maven\mvnRespo\org\apache\xbean\xbean-spring\4.2\xbean-spring-4.2.jar;
+2017-06-06 23:45:41,169 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.library.path=C:\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Java\jdk1.7.0_79\bin;C:\Python27;C:\Python27\Scripts;C:\scala\bin;D:\hadoop-2.5.2\bin;D:\hadoop-2.5.2\sbin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\Git\cmd;E:\software\apache-maven-3.2.5\bin;C:\Program Files\TortoiseGit\bin;.
+2017-06-06 23:45:41,169 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.io.tmpdir=C:\Users\root\AppData\Local\Temp\
+2017-06-06 23:45:41,169 INFO[org.apache.zookeeper.Environment:100]- Client environment:java.compiler=&lt;NA&gt;
+2017-06-06 23:45:41,170 INFO[org.apache.zookeeper.Environment:100]- Client environment:os.name=Windows 8.1
+2017-06-06 23:45:41,170 INFO[org.apache.zookeeper.Environment:100]- Client environment:os.arch=amd64
+2017-06-06 23:45:41,170 INFO[org.apache.zookeeper.Environment:100]- Client environment:os.version=6.3
+2017-06-06 23:45:41,170 INFO[org.apache.zookeeper.Environment:100]- Client environment:user.name=root
+2017-06-06 23:45:41,170 INFO[org.apache.zookeeper.Environment:100]- Client environment:user.home=C:\Users\root
+2017-06-06 23:45:41,171 INFO[org.apache.zookeeper.Environment:100]- Client environment:user.dir=C:\Users\root\Desktop\DubboxDemo-master\Provider
+2017-06-06 23:45:41,172 INFO[org.apache.zookeeper.ZooKeeper:438]- Initiating client connection, connectString=192.168.80.21:2181,192.168.80.22:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@625eaad8
+2017-06-06 23:45:41,186 INFO[org.I0Itec.zkclient.ZkClient:935]- Waiting for keeper state SyncConnected
+2017-06-06 23:45:41,189 INFO[org.apache.zookeeper.ClientCnxn$SendThread:975]- Opening socket connection to server 192.168.80.22/192.168.80.22:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-06-06 23:45:46,187 INFO[org.I0Itec.zkclient.ZkEventThread:82]- Terminate ZkClient event thread.
+2017-06-06 23:46:02,301 INFO[org.apache.zookeeper.ZooKeeper:684]- Session: 0x0 closed
+2017-06-06 23:46:02,301 INFO[org.apache.zookeeper.ClientCnxn$EventThread:512]- EventThread shut down
+2017-06-06 23:46:02,308 ERROR[org.springframework.test.context.TestContextManager:231]- Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3212de12] to prepare test instance [com.yingjun.dubbox.ProviderTest@a27d00a]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:276)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:278)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:1232)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:156)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:130)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:126)
+	at org.I0Itec.zkclient.ZkClient.&lt;init&gt;(ZkClient.java:93)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.&lt;init&gt;(ZkclientZookeeperClient.java:26)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperTransporter.connect(ZkclientZookeeperTransporter.java:10)
+	at com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter$Adpative.connect(ZookeeperTransporter$Adpative.java)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.&lt;init&gt;(ZookeeperRegistry.java:69)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory.createRegistry(ZookeeperRegistryFactory.java:37)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:94)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adpative.getRegistry(RegistryFactory$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.getRegistry(RegistryProtocol.java:190)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:109)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:489)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:285)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:246)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:110)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:380)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:334)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:850)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 31 more
+</system-out>
+  </testcase>
+</testsuite>
